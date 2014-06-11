@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        종상이바보
         gameObject.transform.Translate(new Vector3(0, 0, 1) * speed * Time.deltaTime);
     }
 }
